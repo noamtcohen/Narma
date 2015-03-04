@@ -13,3 +13,6 @@ To run, you must change the path to the script launcher in karam.conf.js
 and then run:
 
       karma start
+
+
+Only tested this on mac.
