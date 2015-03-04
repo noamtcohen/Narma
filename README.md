@@ -15,4 +15,4 @@ and then run:
       karma start
 
 
-Only tested this on mac.
+(only tested this on mac)
