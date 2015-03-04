@@ -16,3 +16,6 @@ and then run:
 
 
 (only tested this on mac)
+
+
+[Narma on Wikipedia](http://en.wikipedia.org/wiki/Narma)
