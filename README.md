@@ -11,7 +11,7 @@ To install:
       npm install
       npm install -g nodewebkit
       
-To run, you must change the path to the script launcher in *karam.conf.js*
+To run, you *must change* the path to the script launcher in *karam.conf.js*
 and then run:
 
       karma start
