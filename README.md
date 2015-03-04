@@ -21,4 +21,4 @@ Maybe it would be a good idea to install the cli, just to make life easy:
       npm install -g karma-cli
 
 
-Checkout test/test.js and app/weserver.js to see exapmles of what you can do.
+Checkout [test/test.js](https://github.com/noamtcohen/Narma/blob/master/test/test.js) and [app/weserver.js](https://github.com/noamtcohen/Narma/blob/master/app/webserver.js) to see exapmles of what you can do.
