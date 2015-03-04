@@ -4,6 +4,8 @@
 Node runs natively in [NW.JS](http://nwjs.io/) and I kinda like Karma (and Jasime).
 So I thought to run a script launcher and unit test my node server (on the server).
 
+It only runs on Mac for now.
+
 To install:
 
       npm install
@@ -17,9 +19,3 @@ and then run:
 Maybe it would be a good idea to install the cli, just to make life easy:
 
       npm install -g karma-cli
-
-
-
-
-(only tested this on mac)
-
