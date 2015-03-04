@@ -1,5 +1,5 @@
 # Narma
-Unit Test NodeJS and all it's node_modules with Karma and Jasime (or what have you)
+[Narma](http://en.wikipedia.org/wiki/Narma) allows you to unit test NodeJS and all it's node_modules with Karma and Jasime (or what have you)
 
 Node runs natively in [NW.JS](http://nwjs.io/) and I kinda like Karma (and Jasime).
 So I thought to run a script launcher and unit test my node server (on the server).
@@ -17,5 +17,3 @@ and then run:
 
 (only tested this on mac)
 
-
-[Narma on Wikipedia](http://en.wikipedia.org/wiki/Narma)
