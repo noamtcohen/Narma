@@ -1,0 +1,6 @@
+function (err){
+            fs.readFile('a-test-file',function(err,data){
+                fileExists= !err;
+                done();
+            });
+        }

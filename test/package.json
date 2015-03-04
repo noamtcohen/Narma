@@ -1,0 +1,16 @@
+{
+  "name": "Narma",
+  "main": "http://localhost:9876/?id=29224553",
+  "node-remote":"<local>",
+  "window": {
+    "title": "Narma",
+    "toolbar": true,
+    "frame": true,
+    "width": 400,
+    "height": 300,
+    "position": "center"
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
