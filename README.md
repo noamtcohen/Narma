@@ -19,3 +19,6 @@ and then run:
 Maybe it would be a good idea to install the cli, just to make life easy:
 
       npm install -g karma-cli
+
+
+checkout test/test.js and app/weserver.js to see exapmles of what you can do.
