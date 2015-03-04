@@ -14,6 +14,12 @@ and then run:
 
       karma start
 
+Maybe it would be a good idea to install the cli, just to make life easy:
+
+      npm install -g karma-cli
+
+
+
 
 (only tested this on mac)
 
