@@ -25,13 +25,20 @@ Checkout [test/test.js](https://github.com/noamtcohen/Narma/blob/master/test/tes
 
 You can start a web server, read from the file system and use jQuery, inside a Jasime suite
 
-      var http = require('http');
-      var server = http.createServer(function(req,res){
-      });
+      describe('somthing to test',function(){
+         it('should be ok',function(done){
+            var http = require('http');
+            var server = http.createServer(function(req,res){
+            });
        
-      var fs = require('fs');
-      fs.writeFile(file,data,function(err,data){
-      });
+            var fs = require('fs');
+            fs.writeFile(file,data,function(err,data){
+            });
       
-      $.get(url,function(data){
+            $.get(url,function(data){
+            });
+            
+            expect('ok').toEqual('ok');
+            done();
+         });
       });
