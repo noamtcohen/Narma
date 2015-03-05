@@ -1,15 +1,9 @@
 describe('file check',function(){
-    var writeOK;
-
-    beforeEach(function(done){
+    it('should exist',function(done){
         writeAndReadThefile('a-test-file','Hi!',function(err,data){
-            writeOK = data.toString()=='Hi!';
+            expect(data.toString()).toEqual('Hi!');
             done();
         });
-    });
-
-    it('should exist',function(){
-      expect(writeOK).toEqual(true);
     });
 });
 
@@ -20,18 +14,12 @@ describe('current working directory',function(){
 });
 
 describe('web server test',function(){
-    var webServerResponse;
-
-    beforeEach(function(done){
+    it('should server static string',function(done){
         startWebServer(8089,'Hi!!!',function(){
             $.get("http://localhost:8089",function(data){
-                webServerResponse = data.toString();
+                expect(data.toString()).toEqual('Hi!!!');
                 done();
             });
-        })
-    });
-
-    it('should server static string',function(){
-        expect(webServerResponse).toEqual('Hi!!!');
+        });
     });
 });

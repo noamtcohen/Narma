@@ -21,7 +21,6 @@ function writeAndReadThefile(file,data,done){
     });
 }
 
-
 function getFolderNameOfWorkingDirecory(){
     var cwd = getCWD();
     return cwd.substring(cwd.lastIndexOf('/')+1,cwd.length);
