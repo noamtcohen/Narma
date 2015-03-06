@@ -38,7 +38,6 @@ You can start a web server, read from the file system and use jQuery, inside a J
             $.get(url,function(data){
             });
             
-            expect('ok').toEqual('ok');
             done();
          });
       });
