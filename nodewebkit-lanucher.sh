@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 echo '{
   "name": "Narma",
   "main": "'$1'",
