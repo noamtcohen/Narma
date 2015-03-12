@@ -4,8 +4,6 @@
 Node runs natively in [NW.JS](http://nwjs.io/) and I kinda like Karma (and Jasime).
 So I thought to write a script launcher and unit test my node code in a nodewebkit browser.
 
-It only runs on Mac for now.
-
 To install:
 
       npm install
@@ -42,3 +40,5 @@ describe('somthing to test',function(){
    });
 });
 ```
+
+It only runs on Mac for now.
