@@ -24,20 +24,21 @@ Maybe it would be a good idea to install the cli, just to make life easy:
 Checkout [test/test.js](https://github.com/noamtcohen/Narma/blob/master/test/test.js) and [app/weserver.js](https://github.com/noamtcohen/Narma/blob/master/app/webserver.js) to see exapmles of what you can do.
 
 You can start a web server, read from the file system and use jQuery, inside a Jasime suite
-
-      describe('somthing to test',function(){
-         it('should be ok',function(done){
-            var http = require('http');
-            var server = http.createServer(function(req,res){
-            });
-       
-            var fs = require('fs');
-            fs.writeFile(file,data,function(err,data){
-            });
-      
-            $.get(url,function(data){
-            });
-            
-            done();
-         });
+```javascript
+describe('somthing to test',function(){
+   it('should be ok',function(done){
+      var http = require('http');
+      var server = http.createServer(function(req,res){
       });
+ 
+      var fs = require('fs');
+      fs.writeFile(file,data,function(err,data){
+      });
+
+      $.get(url,function(data){
+      });
+      
+      done();
+   });
+});
+```
