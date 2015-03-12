@@ -1,5 +1,5 @@
 # Narma
-[Narma](http://en.wikipedia.org/wiki/Narma) allows you to unit test NodeJS and all it's node_modules with Karma and Jasime (or what have you)
+Narma allows you to unit test NodeJS and all it's node_modules with Karma and Jasime (or what have you)
 
 Node runs natively in [NW.JS](http://nwjs.io/) and I kinda like Karma (and Jasime).
 So I thought to write a script launcher and unit test my node code in a nodewebkit browser.
