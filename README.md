@@ -17,7 +17,7 @@ To run, you **must change** the path to the launcher script in [**karam.conf.js*
 
 Use [bat launcher](https://github.com/noamtcohen/Narma/blob/master/bat-launcher.bat) for windows
 
-Use [bash launcher](https://github.com/noamtcohen/Narma/blob/master/bash-launcher.bat) for all the rest
+Use [bash launcher](https://github.com/noamtcohen/Narma/blob/master/bash-launcher.sh) for all the rest
 
 Make sure you use an absolute path and front slashes on windows too.
 
