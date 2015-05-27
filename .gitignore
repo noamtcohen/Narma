@@ -4,4 +4,8 @@ test/a-test-file
 
 test/package.json
 
+<<<<<<< HEAD
 .idea
+=======
+.idea
+>>>>>>> 3bd4dadd53d431f90c3aa4e3a91421462952e1f3
