@@ -3,3 +3,5 @@ node_modules
 test/a-test-file
 
 test/package.json
+
+.idea
