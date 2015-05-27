@@ -9,17 +9,18 @@ describe('file check',function(){
 
 describe('current working directory',function(){
     it('should end with test',function(){
-        expect(getFolderNameOfWorkingDirecory()).toEqual('test');
+		var isTestFolder = getFolderNameOfWorkingDirecory().indexOf("test")!=-1;
+        expect(isTestFolder).toEqual(true);
     });
 });
 
-describe('web server test',function(){
+describe('web server test',function(){ 
     it('should server static string',function(done){
         startWebServer(8089,'Hi!!!',function(){
-            $.get("http://localhost:8089",function(data){
+            $.get("http://localhost:8089",function(data){ 
                 expect(data.toString()).toEqual('Hi!!!');
                 done();
             });
         });
     });
-});
+});  
