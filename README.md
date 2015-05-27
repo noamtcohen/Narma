@@ -8,15 +8,19 @@ To install:
 
       npm install
       npm install -g nodewebkit
+
+install the cli globally
+
+      npm install -g karma-cli
       
 To run, you **must change** the path to the [script launcher](https://github.com/noamtcohen/Narma/blob/master/nodewebkit-lanucher.sh) in [**karam.conf.js**](https://github.com/noamtcohen/Narma/blob/master/karma.conf.js#L59)
+
+
 and then run:
 
       karma start
 
-Maybe it would be a good idea to install the cli, just to make life easy:
 
-      npm install -g karma-cli
 
 
 Checkout [test/test.js](https://github.com/noamtcohen/Narma/blob/master/test/test.js) and [app/weserver.js](https://github.com/noamtcohen/Narma/blob/master/app/webserver.js) to see exapmles of what you can do.
