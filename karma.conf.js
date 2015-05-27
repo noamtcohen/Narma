@@ -56,7 +56,7 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['/Users/noam/Dev/Narma/nodewebkit-lanucher.sh'],
+    browsers: ['C:\Dev\Narma\bat-launcher.bat'],
 
 
     // Continuous Integration mode
