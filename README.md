@@ -49,5 +49,3 @@ describe('somthing to test',function(){
    });
 });
 ```
-
-***It only runs on Mac for now.***
